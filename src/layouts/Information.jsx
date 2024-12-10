@@ -74,7 +74,7 @@ const Information = () => {
                         <Mempelai 
                             img={bride} 
                             person="Febriana Dia Ruhaini" 
-                            count='Kedua' 
+                            count='Keempat' 
                             father='Abd Kifli' 
                             mother='Amsawiya' 
                             position="items-start" 
