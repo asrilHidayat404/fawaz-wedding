@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lobster-two-regular-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+
+.hero::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(234, 234, 234, 1)
+    3%, rgba(255, 255, 255, 0) 20%);
+}
+  
+.information::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(0deg, rgba(0, 0, 255, 1) 0%, rgba(255, 255, 255, 0) 25%);
+}
+
+.sh {
+  text-shadow: 2px 2px 5px #eaeaea;
+}
+  
+
+/*  */
+
+
+/* Fade In */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Slide In from Left */
+@keyframes slideInFromLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+/* Typing Effect */
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-out;
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.typing {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #333;
+  width: 0;
+  animation: typing 3s steps(30) 1s 1 normal both;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text-light {
+  text-shadow: 1px 1px blue;
+}
+
