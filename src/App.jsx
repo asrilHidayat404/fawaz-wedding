@@ -40,10 +40,10 @@ function App() {
       <Hero />
       <Ayat />
       <Information />
-      {/* <Gift /> */}
+      <Gift />
       <Confirmation />
       <CommentSection />
-      {/* <Gallery /> */}
+      <Gallery />
       <Footer />
     </div>
   )

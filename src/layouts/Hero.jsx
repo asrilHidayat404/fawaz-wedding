@@ -34,7 +34,7 @@ const Hero = () => {
           <h1 className="text-primary font-bold lobster-two-regular lg:text-5xl text-xl">Febriana Dia Ruhaini</h1>
         </div>
         <p className="font-bold text-secondary">Ahad, 22 Desember 2024</p>
-        <CountdownTimer deadline={"December, 22, 2024"} specificHour={14} />
+        <CountdownTimer deadline={"December, 22, 2025"} specificHour={14} />
       </div>
     </div>
   )
